@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spell-Check</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+
+
+
+<body>
+    <center>
+    <div class="container" style="width: 50%; margin: auto">
+    
+        <input type="file" name="inputfile" id="inputfile"  >
+        <button class = "btn btn-success" onclick="readData()">Upload</button>
+        <br><br>
+        <div style="border: 5px solid yellow;
+        width: 400px;
+        background: yellowgreen;" 
+        id="filecontent">No document selected</div> 
+        <menu id="contextMenu" class="context-menu" style="display:none; background-color: grey"></menu>
+    
+    </div>
+</body>
+</center>
+<script src="index.js"></script>
+</html>
+
+
